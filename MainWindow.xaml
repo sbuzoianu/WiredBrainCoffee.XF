@@ -8,14 +8,21 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button
-            Content="Add Customer"
             VerticalAlignment="Top"
             HorizontalAlignment="Left"
-            Margin="10"
-            Click="Btn_Add_Customer"
-            > 
-            
-            
+            Margin="20 20 0 0"
+            Width ="120"
+            Click="Btn_Add_Customer">
+            <Button.Content>
+                <StackPanel Orientation ="Horizontal">
+                    <Image Source ="/Imgs/add.png" 
+                           Height ="18"
+                           Margin = "0 0 5 0"/>
+                    <TextBlock Text ="Add Customer"/>
+
+                </StackPanel>
+
+            </Button.Content>
         </Button>
 
     </Grid>

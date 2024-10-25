@@ -8,4 +8,23 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Images\**" />
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Images\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="Images\**" />
+    <None Remove="NewFolder\**" />
+    <Page Remove="Images\**" />
+    <Page Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Imgs\add.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imgs\add.png" />
+  </ItemGroup>
+
 </Project>
